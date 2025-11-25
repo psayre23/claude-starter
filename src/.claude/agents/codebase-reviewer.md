@@ -131,7 +131,7 @@ Create detailed review report (see Output Format below)
 
 Generate a comprehensive review report and save it to:
 ```
-./dev/reviews/codebase-review-[YYYY-MM-DD].md
+./.dev-docs/reviews/codebase-review-[YYYY-MM-DD].md
 ```
 
 ### Report Structure

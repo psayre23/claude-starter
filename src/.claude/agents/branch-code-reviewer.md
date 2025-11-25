@@ -105,7 +105,7 @@ Create detailed review report (see Output Format below)
 
 Generate a comprehensive review report and save it to:
 ```
-./dev/reviews/[branch-name]-code-review.md
+./.dev-docs/reviews/[branch-name]-code-review.md
 ```
 
 ### Report Structure

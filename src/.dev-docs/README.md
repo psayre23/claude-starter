@@ -22,7 +22,7 @@ A methodology for maintaining project context across Claude Code sessions and co
 A three-file structure that captures everything needed to resume work:
 
 ```
-dev/active/[task-name]/
+.dev-docs/active/[task-name]/
 ├── [task-name]-plan.md      # Strategic plan
 ├── [task-name]-context.md   # Key decisions & files
 └── [task-name]-tasks.md     # Checklist format
@@ -266,7 +266,7 @@ No need to explain what you were doing - it's all documented!
 ## File Organization
 
 ```
-dev/
+.dev-docs/
 ├── README.md              # This file
 ├── active/                # Current work
 │   ├── task-1/
@@ -287,7 +287,7 @@ dev/
 
 ## Example: Real Usage
 
-See **dev/active/public-infrastructure-repo/** in this repository for a real example:
+See **.dev-docs/active/public-infrastructure-repo/** in this repository for a real example:
 - **plan.md** - 700+ line strategic plan for creating this showcase
 - **context.md** - Tracks what's completed, decisions made, what's next
 - **tasks.md** - Checklist of all phases and tasks
