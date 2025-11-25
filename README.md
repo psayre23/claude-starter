@@ -38,6 +38,21 @@ The `/src` directory contains:
 
 3. **Start using Claude Code** in your project with the enhanced configurations
 
+### Automated Setup
+
+For quick installation, use the setup script:
+
+```bash
+# Option 1: Run script directly (will prompt for path)
+./setup.sh
+
+# Option 2: Provide path as argument
+./setup.sh /path/to/your/project
+
+# Option 3: Use make
+make setup TARGET=/path/to/your/project
+```
+
 ### Selective Installation
 
 You don't need to copy everything. Pick what's useful for your project:
