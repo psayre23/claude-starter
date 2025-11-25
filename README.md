@@ -43,14 +43,15 @@ The `/src` directory contains:
 For quick installation, use the setup script:
 
 ```bash
-# Option 1: Run script directly (will prompt for path)
-./scripts/setup.sh
-
-# Option 2: Provide path as argument
-./scripts/setup.sh /path/to/your/project
-
-# Option 3: Use make
+# Using make (recommended)
 make setup TARGET=/path/to/your/project
+
+# Or run the script directly (will prompt for path if not provided)
+./scripts/setup.sh /path/to/your/project
+./scripts/setup.sh  # prompts for path
+
+# See all available make commands
+make help
 ```
 
 ### Selective Installation
