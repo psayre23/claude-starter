@@ -26,8 +26,8 @@ fi
 # Convert to absolute path for clearer messaging
 TARGET_DIR=$(cd "$TARGET_DIR" && pwd)
 
-# Get script directory to locate source templates
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# Get repository root directory (one level up from scripts/)
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 # Validate source templates exist
 if [ ! -d "$SCRIPT_DIR/src/.claude" ] || [ ! -d "$SCRIPT_DIR/src/.dev-docs" ]; then

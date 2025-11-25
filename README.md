@@ -44,10 +44,10 @@ For quick installation, use the setup script:
 
 ```bash
 # Option 1: Run script directly (will prompt for path)
-./setup.sh
+./scripts/setup.sh
 
 # Option 2: Provide path as argument
-./setup.sh /path/to/your/project
+./scripts/setup.sh /path/to/your/project
 
 # Option 3: Use make
 make setup TARGET=/path/to/your/project

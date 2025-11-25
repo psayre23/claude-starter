@@ -1,4 +1,4 @@
 .PHONY: setup
 
 setup:
-	@bash setup.sh $(TARGET)
+	@bash scripts/setup.sh $(TARGET)
